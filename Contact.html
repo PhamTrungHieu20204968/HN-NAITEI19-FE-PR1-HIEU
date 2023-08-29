@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GREEN SHOP</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./asset/css/normallize.css" />
+    <link rel="stylesheet" href="./asset/css/font-awesome/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="./asset/css/font-awesome/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="./asset/css/bootsrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./asset/css/base.css" />
+    <link rel="stylesheet" href="./asset/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <section class="header__top">
+        <div class="container-xl d-flex justify-content-between">
+          <div class="header__top-left">
+            <div class="header-top-left__time">
+              <i class="fa-regular fa-clock"></i>
+              <span class="header-top-left__time-text"
+                >Open time: 8:00 - 18:00 Monday - Sunday</span
+              >
+            </div>
+
+            <ul class="header-top-left__contacts">
+              <li class="header-top-left__contact">
+                <i class="fa-brands fa-facebook-f"></i>
+              </li>
+              <li class="header-top-left__contact">
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li class="header-top-left__contact">
+                <i class="fa-brands fa-tumblr"></i>
+              </li>
+              <li class="header-top-left__contact">
+                <i class="fa-brands fa-vimeo-v"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="header-top__right">
+            <button type="button" class="header__top-btn">
+              <i class="fa-solid fa-user"></i>
+              Đăng nhập
+            </button>
+            <button type="button" class="header__top-btn">
+              <i class="fa-solid fa-user-plus"></i>
+              Đăng ký
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="header__body">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="logo-wrapper">
+                <img src="./asset/img/logo.png" alt="logo" class="logo-img" />
+              </div>
+            </div>
+            <div class="col col-lg-6">
+              <div class="header__body-content">
+                <div class="header-body-content__left">
+                  <div class="header-body-content__left-contact">
+                    <i class="fa-solid fa-phone mr-2"> </i>
+                    <h4>HỖ TRỢ: (04) 6674 2332 - (04) 3786 8904</h4>
+                  </div>
+                  <div class="header-body-content__left-search-wrap">
+                    <div class="header-body-content__left-search">
+                      <input
+                        class="header-body-content__left-search-text"
+                        type="text"
+                        placeholder="Tìm kiếm..."
+                      />
+                      <div class="header-body-content__left-search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="header-body-content__right">
+                  <i class="fa-solid fa-basket-shopping mr-4"></i>
+                  <span>0 Sản phẩm</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="header__bottom">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <i class="fa-solid fa-bars nav-bar-icon"></i>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="header__bottom-navbar-nav navbar-nav">
+                <li class="nav-item nav-item--active">
+                  <a class="nav-link" aria-current="page" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Giới thiệu</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Sản phẩm
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Sản phẩm mới
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header-mobile__icons">
+              <i class="fa-solid fa-magnifying-glass nav-bar-icon"></i>
+              <i class="fa-solid fa-basket-shopping nav-bar-icon"></i>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h4 class="main-flow">
+          Home / <span class="main-flow__current"> Liên hệ</span>
+        </h4>
+      </div>
+      <div class="map-img">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1861.952208308397!2d105.81474923849774!3d21.036510198600798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab128d511a8d%3A0x3440d4c5d63f693!2zMjY2IFAuIMSQ4buZaSBD4bqlbiwgTGnhu4V1IEdpYWksIEJhIMSQw6xuaCwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1693294106791!5m2!1svi!2s"
+          width="100%"
+          height="500"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-5">
+              <form class="form">
+                <h2 class="form-title">Thông tin cá nhân</h2>
+                <div class="row">
+                  <div class="col-12">
+                    <label for="name" class="form-label"
+                      >Họ và tên
+                      <sup>
+                        <i
+                          class="fa-solid fa-asterisk fa-2xs"
+                          style="color: #ff0000"
+                        ></i>
+                      </sup>
+                    </label>
+                    <input type="text" class="form-control" id="name" />
+                  </div>
+                  <div class="col-12">
+                    <label for="email" class="form-label"
+                      >Địa chỉ Email
+                      <sup>
+                        <i
+                          class="fa-solid fa-asterisk fa-2xs"
+                          style="color: #ff0000"
+                        ></i>
+                      </sup>
+                    </label>
+                    <input type="email" class="form-control" id="email" />
+                  </div>
+                  <div class="col-12">
+                    <label for="phone" class="form-label"
+                      >Số ĐT
+                      <sup>
+                        <i
+                          class="fa-solid fa-asterisk fa-2xs"
+                          style="color: #ff0000"
+                        ></i>
+                      </sup>
+                    </label>
+                    <input type="number" class="form-control" id="phone" />
+                  </div>
+                  <div class="col-12">
+                    <label for="comment" class="form-label"
+                      >Bình luận
+                      <sup>
+                        <i
+                          class="fa-solid fa-asterisk fa-2xs"
+                          style="color: #ff0000"
+                        ></i>
+                      </sup>
+                    </label>
+                    <textarea
+                      name="comment"
+                      id="comment"
+                      cols="30"
+                      rows="10"
+                      class="form-control"
+                    ></textarea>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-5">
+              <div class="footer-info">
+                <div class="footer-info__logo">
+                  <div class="logo-wrapper">
+                    <img
+                      src="./asset/img/logo.png"
+                      alt="logo"
+                      class="logo-img"
+                    />
+                  </div>
+                </div>
+                <p class="footer-info__description">
+                  Green shop được thành lập từ 8/2010 được sự tin tưởng của
+                  khách hàng trong suốt thời gian hoạt động đến nay của cửa hàng
+                  một phát triển
+                </p>
+                <div class="footer-info__phone">
+                  <i
+                    class="fa-solid fa-mobile-screen-button footer-info__icon"
+                  ></i>
+                  Điện thoại: (84-4) 66.558.868
+                </div>
+                <div class="footer-info__mail">
+                  <i class="fa-solid fa-envelope footer-info__icon"></i>
+                  Email: info@dkt.com.vn
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="footer__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="footer-contact">
+                <div class="footer-contact__text">
+                  kênh thông tin từ chúng tôi:
+                </div>
+                <ul class="footer-contact__icons">
+                  <li class="footer-contact__icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </li>
+                  <li class="footer-contact__icon">
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li class="footer-contact__icon">
+                    <i class="fa-brands fa-youtube"></i>
+                  </li>
+                  <li class="footer-contact__icon">
+                    <i class="fa-brands fa-vimeo-v"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <label for="inputEmail" class="footer-label">
+                Đăng ký nhận Email từ chúng tôi
+              </label>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="footer-input-wrap">
+                <input
+                  type="email"
+                  class="footer-input__text"
+                  id="inputEmail"
+                />
+                <button class="footer-input__btn">
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer__body">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="footer-info">
+                <div class="footer-info__logo">
+                  <div class="logo-wrapper">
+                    <img
+                      src="./asset/img/logo.png"
+                      alt="logo"
+                      class="logo-img"
+                    />
+                  </div>
+                </div>
+                <p class="footer-info__description">
+                  Green shop được thành lập từ 8/2010 được sự tin tưởng của
+                  khách hàng trong suốt thời gian hoạt động đến nay của cửa hàng
+                  một phát triển
+                </p>
+                <div class="footer-info__phone">
+                  <i
+                    class="fa-solid fa-mobile-screen-button footer-info__icon"
+                  ></i>
+                  Điện thoại: (84-4) 66.558.868
+                </div>
+                <div class="footer-info__mail">
+                  <i class="fa-solid fa-envelope footer-info__icon"></i>
+                  Email: info@dkt.com.vn
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <div class="footer-lists__wrap">
+                <h3 class="footer-lists__title">Thông tin khách hàng</h3>
+                <ul class="footer-lists__list">
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tài khoản của tôi
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Sản phẩm yêu thích
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Lịch sử mua hàng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách đổi trả
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Góp ý khiếu nại
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <div class="footer-lists__wrap">
+                <h3 class="footer-lists__title">Hỗ trợ dịch vụ</h3>
+                <ul class="footer-lists__list">
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Hệ thống cửa hàng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Hướng dẫn mua hàng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Hướng dẫn thanh toán
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tích điểm đổi quà
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Câu hỏi thường gặp
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <div class="footer-lists__wrap">
+                <h3 class="footer-lists__title">Chính sách ưu đãi</h3>
+                <ul class="footer-lists__list">
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách giao hàng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách đổi trả sản phẩm
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách bảo hành
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Giới thiệu sản phẩm mới
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách trả góp
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <div class="footer-lists__wrap">
+                <h3 class="footer-lists__title">Tin tức</h3>
+                <ul class="footer-lists__list">
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tin mới
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Khuyến mại
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tuyển dụng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Download
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tags
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer__bottom">
+        <div class="container">
+          <div class="footer-help">
+            <ul class="footer-help__left">
+              <div class="footer-help__item">Sitemap</div>
+              <div class="footer-help__item">Danh mục sản phẩm</div>
+              <div class="footer-help__item">Hợp tác</div>
+              <div class="footer-help__item">Thông tin liên hệ</div>
+              <div class="footer-help__item">Câu hỏi thường gặp</div>
+            </ul>
+            <ul class="footer-help__right">
+              <div class="footer-help__item">
+                <i class="fa-brands fa-cc-visa"></i>
+              </div>
+              <div class="footer-help__item">
+                <i class="fa-brands fa-cc-mastercard"></i>
+              </div>
+              <div class="footer-help__item">
+                <i class="fa-brands fa-cc-paypal"></i>
+              </div>
+              <div class="footer-help__item">
+                <i class="fa-brands fa-cc-discover"></i>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          Thiết kế bởi Bizweb
+          <i class="fa-solid fa-copyright"></i>
+        </div>
+      </section>
+    </footer>
+    <script src="./asset/css/bootsrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

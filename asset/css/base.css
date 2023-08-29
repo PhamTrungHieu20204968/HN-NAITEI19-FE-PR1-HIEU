@@ -29,3 +29,7 @@ ul {
   margin-right: 4px;
 }
 
+th,
+td {
+  text-align: center;
+}
