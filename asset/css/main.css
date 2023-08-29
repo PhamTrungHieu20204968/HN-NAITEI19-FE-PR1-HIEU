@@ -107,9 +107,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   color: #919191;
   padding-left: 16px;
   margin-bottom: 16px;
@@ -187,7 +187,7 @@
 }
 
 .navbar {
-  padding: 0 1rem;
+  padding: 0;
 }
 
 .nav-item,
@@ -411,4 +411,63 @@
   .footer-copyright {
     margin-top: 0;
   }
+}
+
+/* Sign up Page */
+.main {
+  margin: 16px 0;
+  color: #7f7f7f;
+}
+
+.main-flow__current {
+  color: #36a66d;
+}
+
+.form {
+  margin: 60px 0;
+}
+
+.form-title {
+  color: #36a66d;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+}
+
+.form-check {
+  margin-bottom: 40px;
+}
+
+.form-btn {
+  padding: 8px 32px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  margin-right: 16px;
+}
+
+/* Login */
+
+.fogotpass-text {
+  text-decoration: underline;
+  margin-left: 32px;
+}
+
+.fogotpass-text:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.login-help {
+  margin-top: 60px;
+}
+
+.login-help__text {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
 }
