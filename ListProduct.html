@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GREEN SHOP</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./asset/css/normallize.css" />
+    <link rel="stylesheet" href="./asset/css/font-awesome/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="./asset/css/font-awesome/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="./asset/css/bootsrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./asset/css/base.css" />
+    <link rel="stylesheet" href="./asset/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <section class="header__top">
+        <div class="container-xl d-flex justify-content-between">
+          <div class="header__top-left">
+            <div class="header-top-left__time">
+              <i class="fa-regular fa-clock"></i>
+              <span class="header-top-left__time-text"
+                >Open time: 8:00 - 18:00 Monday - Sunday</span
+              >
+            </div>
+
+            <ul class="header-top-left__contacts">
+              <li class="header-top-left__contact">
+                <i class="fa-brands fa-facebook-f"></i>
+              </li>
+              <li class="header-top-left__contact">
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li class="header-top-left__contact">
+                <i class="fa-brands fa-tumblr"></i>
+              </li>
+              <li class="header-top-left__contact">
+                <i class="fa-brands fa-vimeo-v"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="header-top__right">
+            <button type="button" class="header__top-btn">
+              <i class="fa-solid fa-user"></i>
+              Đăng nhập
+            </button>
+            <button type="button" class="header__top-btn">
+              <i class="fa-solid fa-user-plus"></i>
+              Đăng ký
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="header__body">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="logo-wrapper">
+                <img src="./asset/img/logo.png" alt="logo" class="logo-img" />
+              </div>
+            </div>
+            <div class="col col-lg-6">
+              <div class="header__body-content">
+                <div class="header-body-content__left">
+                  <div class="header-body-content__left-contact">
+                    <i class="fa-solid fa-phone mr-2"> </i>
+                    <h4>HỖ TRỢ: (04) 6674 2332 - (04) 3786 8904</h4>
+                  </div>
+                  <div class="header-body-content__left-search-wrap">
+                    <div class="header-body-content__left-search">
+                      <input
+                        class="header-body-content__left-search-text"
+                        type="text"
+                        placeholder="Tìm kiếm..."
+                      />
+                      <div class="header-body-content__left-search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="header-body-content__right">
+                  <i class="fa-solid fa-basket-shopping mr-4"></i>
+                  <span>0 Sản phẩm</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="header__bottom">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <i class="fa-solid fa-bars nav-bar-icon"></i>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="header__bottom-navbar-nav navbar-nav">
+                <li class="nav-item nav-item--active">
+                  <a class="nav-link" aria-current="page" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Giới thiệu</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Sản phẩm
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Sản phẩm mới
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header-mobile__icons">
+              <i class="fa-solid fa-magnifying-glass nav-bar-icon"></i>
+              <i class="fa-solid fa-basket-shopping nav-bar-icon"></i>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h4 class="main-flow">
+          Home / <span class="main-flow__current"> Danh sách sản phẩm</span>
+        </h4>
+
+        <div class="main__content">
+          <div class="row">
+            <div class="col-3">
+              <section class="sidebar">
+                <div class="main-title__wrapper">
+                  <span class="main-title__text"> Sản phẩm nổi bật </span>
+                </div>
+                <ul class="sidebar__list">
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    Cây chậu treo ( 10 )
+                  </div>
+                  <div class="sidebar__item active">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    Cây có hoa ( 5 )
+                  </div>
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    Cây dây leo
+                  </div>
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    cây để bàn
+                  </div>
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    Cây may mắn
+                  </div>
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    Cây trang trí
+                  </div>
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    Cây nội thất
+                  </div>
+                </ul>
+
+                <div class="main-title__wrapper">
+                  <span class="main-title__text"> Tìm theo giá </span>
+                </div>
+                <ul class="sidebar__list">
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    200.000 Đ - 400.000 Đ
+                  </div>
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    400.000 Đ - 600.000 Đ
+                  </div>
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    600.000 Đ - 800.000 Đ
+                  </div>
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    800.000 Đ - 1000.000 Đ
+                  </div>
+                  <div class="sidebar__item">
+                    <i class="fa-solid fa-angle-right mr-4"></i>
+                    1000.000 Đ - 2000.000 Đ
+                  </div>
+                </ul>
+
+                <div class="main-title__wrapper">
+                  <span class="main-title__text"> Tìm theo màu</span>
+                </div>
+                <div class="color-table">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="color-table__row">
+                        <i
+                          class="fa-solid fa-circle fa-2xl mr-4"
+                          style="color: #98cb4a"
+                        ></i>
+                        Xanh cây
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="color-table__row">
+                        <i
+                          class="fa-solid fa-circle fa-2xl mr-4"
+                          style="color: #f76d3c"
+                        ></i>
+                        Đỏ cam
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="color-table__row">
+                        <i
+                          class="fa-solid fa-circle fa-2xl mr-4"
+                          style="color: #913ccd"
+                        ></i>
+                        Tím
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="color-table__row">
+                        <i
+                          class="fa-solid fa-circle fa-2xl mr-4"
+                          style="color: #5481e6"
+                        ></i>
+                        Xanh trời
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="color-table__row">
+                        <i
+                          class="fa-solid fa-circle fa-2xl mr-4"
+                          style="color: #f7d842"
+                        ></i>
+                        Vàng
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="color-table__row">
+                        <i
+                          class="fa-solid fa-circle fa-2xl mr-4"
+                          style="color: #f15f74"
+                        ></i>
+                        Hồng
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-9">
+              <section class="content-wrapper">
+                <div class="content__banner">
+                  <img
+                    src="./asset/img/banner-11140x217.png"
+                    alt="banner"
+                    class="content__banner-img"
+                  />
+                </div>
+
+                <div class="content__control">
+                  <div class="content__control-show">
+                    <i
+                      class="fa-solid fa-table-cells control-show-icon grid-icon active"
+                    ></i>
+                    <i class="fa-solid fa-list control-show-icon list-icon"></i>
+                  </div>
+                  <div class="content__control-sort">
+                    <span class="select-label">Sắp xếp theo</span>
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Tên sản phẩm</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+
+                    <span class="select-label">Show</span>
+                    <select
+                      class="form-select form-select-small"
+                      aria-label="Default select example"
+                    >
+                      <option selected>15</option>
+                      <option value="1">16</option>
+                      <option value="2">17</option>
+                      <option value="3">18</option>
+                    </select>
+                  </div>
+                </div>
+              </section>
+
+              <section class="grid-wrapper">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./asset/img/sản phẩm/spx2-1.png"
+                          class="card-img-top"
+                          alt="spx2-1"
+                        />
+                        <div class="card-btns">
+                          <button
+                            class="card-btn btn btn-custom mr-4"
+                            type="button"
+                          >
+                            MUA NGAY
+                          </button>
+                          <button class="card-btn btn btn-light" type="button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="card-name mb-8">Cây danh dự</div>
+                        <div class="card-rate mb-8">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="card-price">
+                          250.000 đ <span class="card-supprice">250.000 đ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./asset/img/sản phẩm/spx2-2.png"
+                          class="card-img-top"
+                          alt="spx2-2.png"
+                        />
+                        <div class="card-btns">
+                          <button
+                            class="card-btn btn btn-custom mr-4"
+                            type="button"
+                          >
+                            MUA NGAY
+                          </button>
+                          <button class="card-btn btn btn-light" type="button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="card-name mb-8">Cây danh dự</div>
+                        <div class="card-rate mb-8">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="card-price">
+                          250.000 đ <span class="card-supprice">250.000 đ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./asset/img/sản phẩm/spx2-3.png"
+                          class="card-img-top"
+                          alt="spx2-3.png"
+                        />
+                        <div class="card-btns">
+                          <button
+                            class="card-btn btn btn-custom mr-4"
+                            type="button"
+                          >
+                            MUA NGAY
+                          </button>
+                          <button class="card-btn btn btn-light" type="button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="card-name mb-8">Cây danh dự</div>
+                        <div class="card-rate mb-8">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="card-price">
+                          250.000 đ <span class="card-supprice">250.000 đ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./asset/img/sản phẩm/spx2-4.png"
+                          class="card-img-top"
+                          alt="spx2-4.png"
+                        />
+                        <div class="card-btns">
+                          <button
+                            class="card-btn btn btn-custom mr-4"
+                            type="button"
+                          >
+                            MUA NGAY
+                          </button>
+                          <button class="card-btn btn btn-light" type="button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="card-name mb-8">Cây danh dự</div>
+                        <div class="card-rate mb-8">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="card-price">
+                          250.000 đ <span class="card-supprice">250.000 đ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./asset/img/sản phẩm/spx2-5.png"
+                          class="card-img-top"
+                          alt="spx2-5.png"
+                        />
+                        <div class="card-btns">
+                          <button
+                            class="card-btn btn btn-custom mr-4"
+                            type="button"
+                          >
+                            MUA NGAY
+                          </button>
+                          <button class="card-btn btn btn-light" type="button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="card-name mb-8">Cây danh dự</div>
+                        <div class="card-rate mb-8">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="card-price">
+                          250.000 đ <span class="card-supprice">250.000 đ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./asset/img/sản phẩm/spx2-6.png"
+                          class="card-img-top"
+                          alt="spx2-6.png"
+                        />
+                        <div class="card-btns">
+                          <button
+                            class="card-btn btn btn-custom mr-4"
+                            type="button"
+                          >
+                            MUA NGAY
+                          </button>
+                          <button class="card-btn btn btn-light" type="button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="card-name mb-8">Cây danh dự</div>
+                        <div class="card-rate mb-8">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="card-price">
+                          250.000 đ <span class="card-supprice">250.000 đ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="list-wrapper">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img
+                            src="./asset/img/sản phẩm/spx2-1.png"
+                            class="img-fluid rounded-start"
+                            alt="spx2-1"
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <div class="card-name">Cây ngọc ngân</div>
+                            <div class="card-rate">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="card-description">
+                              Cây ngọc ngân là loại cây dành cho tình yêu! Đây
+                              là món quà bất ngờ để bạn tặng "người ấy".Ngọc
+                              ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm
+                              trắng.
+                            </p>
+                            <div class="card-price">279.000 đ</div>
+
+                            <div class="list-card-btns">
+                              <button
+                                class="card-btn btn btn-custom mr-4"
+                                type="button"
+                              >
+                                MUA NGAY
+                              </button>
+                              <button
+                                class="card-btn btn btn-light card-icon"
+                                type="button"
+                              >
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                              </button>
+                              <button
+                                class="card-btn btn btn-light card-icon"
+                                type="button"
+                              >
+                                <i class="fa-solid fa-heart"></i>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img
+                            src="./asset/img/sản phẩm/spx2-1.png"
+                            class="img-fluid rounded-start"
+                            alt="spx2-1"
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <div class="card-name">Cây ngọc ngân</div>
+                            <div class="card-rate">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="card-description">
+                              Cây ngọc ngân là loại cây dành cho tình yêu! Đây
+                              là món quà bất ngờ để bạn tặng "người ấy".Ngọc
+                              ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm
+                              trắng.
+                            </p>
+                            <div class="card-price">279.000 đ</div>
+
+                            <div class="list-card-btns">
+                              <button
+                                class="card-btn btn btn-custom mr-4"
+                                type="button"
+                              >
+                                MUA NGAY
+                              </button>
+                              <button
+                                class="card-btn btn btn-light card-icon"
+                                type="button"
+                              >
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                              </button>
+                              <button
+                                class="card-btn btn btn-light card-icon"
+                                type="button"
+                              >
+                                <i class="fa-solid fa-heart"></i>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section>
+                <div class="pagination">
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#">Trang trước</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link active" href="#">1</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">4</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Trang cuối</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="footer__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="footer-contact">
+                <div class="footer-contact__text">
+                  kênh thông tin từ chúng tôi:
+                </div>
+                <ul class="footer-contact__icons">
+                  <li class="footer-contact__icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </li>
+                  <li class="footer-contact__icon">
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li class="footer-contact__icon">
+                    <i class="fa-brands fa-youtube"></i>
+                  </li>
+                  <li class="footer-contact__icon">
+                    <i class="fa-brands fa-vimeo-v"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <label for="inputEmail" class="footer-label">
+                Đăng ký nhận Email từ chúng tôi
+              </label>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="footer-input-wrap">
+                <input
+                  type="email"
+                  class="footer-input__text"
+                  id="inputEmail"
+                />
+                <button class="footer-input__btn">
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer__body">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="footer-info">
+                <div class="footer-info__logo">
+                  <div class="logo-wrapper">
+                    <img
+                      src="./asset/img/logo.png"
+                      alt="logo"
+                      class="logo-img"
+                    />
+                  </div>
+                </div>
+                <p class="footer-info__description">
+                  Green shop được thành lập từ 8/2010 được sự tin tưởng của
+                  khách hàng trong suốt thời gian hoạt động đến nay của cửa hàng
+                  một phát triển
+                </p>
+                <div class="footer-info__phone">
+                  <i
+                    class="fa-solid fa-mobile-screen-button footer-info__icon"
+                  ></i>
+                  Điện thoại: (84-4) 66.558.868
+                </div>
+                <div class="footer-info__mail">
+                  <i class="fa-solid fa-envelope footer-info__icon"></i>
+                  Email: info@dkt.com.vn
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <div class="footer-lists__wrap">
+                <h3 class="footer-lists__title">Thông tin khách hàng</h3>
+                <ul class="footer-lists__list">
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tài khoản của tôi
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Sản phẩm yêu thích
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Lịch sử mua hàng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách đổi trả
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Góp ý khiếu nại
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <div class="footer-lists__wrap">
+                <h3 class="footer-lists__title">Hỗ trợ dịch vụ</h3>
+                <ul class="footer-lists__list">
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Hệ thống cửa hàng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Hướng dẫn mua hàng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Hướng dẫn thanh toán
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tích điểm đổi quà
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Câu hỏi thường gặp
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <div class="footer-lists__wrap">
+                <h3 class="footer-lists__title">Chính sách ưu đãi</h3>
+                <ul class="footer-lists__list">
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách giao hàng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách đổi trả sản phẩm
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách bảo hành
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Giới thiệu sản phẩm mới
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Chính sách trả góp
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2">
+              <div class="footer-lists__wrap">
+                <h3 class="footer-lists__title">Tin tức</h3>
+                <ul class="footer-lists__list">
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tin mới
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Khuyến mại
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tuyển dụng
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Download
+                  </li>
+                  <li class="footer-lists__item">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Tags
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer__bottom">
+        <div class="container">
+          <div class="footer-help">
+            <ul class="footer-help__left">
+              <div class="footer-help__item">Sitemap</div>
+              <div class="footer-help__item">Danh mục sản phẩm</div>
+              <div class="footer-help__item">Hợp tác</div>
+              <div class="footer-help__item">Thông tin liên hệ</div>
+              <div class="footer-help__item">Câu hỏi thường gặp</div>
+            </ul>
+            <ul class="footer-help__right">
+              <div class="footer-help__item">
+                <i class="fa-brands fa-cc-visa"></i>
+              </div>
+              <div class="footer-help__item">
+                <i class="fa-brands fa-cc-mastercard"></i>
+              </div>
+              <div class="footer-help__item">
+                <i class="fa-brands fa-cc-paypal"></i>
+              </div>
+              <div class="footer-help__item">
+                <i class="fa-brands fa-cc-discover"></i>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          Thiết kế bởi Bizweb
+          <i class="fa-solid fa-copyright"></i>
+        </div>
+      </section>
+    </footer>
+    <script src="./asset/css/bootsrap/js/bootstrap.min.js"></script>
+    <script src="./asset/js/ListProduct.js"></script>
+  </body>
+</html>
