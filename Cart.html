@@ -169,7 +169,29 @@
         </h4>
         <h2 class="form-title cart-title">Giỏ hàng</h2>
 
-        <table class="table table-bordered align-middle">
+        <section class="process-container">
+          <div class="process-titles">
+            <span class="process-title active"> Thông tin giỏ hàng </span>
+            <span class="process-title">Thông tin thanh toán</span>
+            <span class="process-title">Xác nhận</span>
+          </div>
+
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Animated striped example"
+            aria-valuenow="18"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              style="width: 18%"
+            ></div>
+          </div>
+        </section>
+
+        <table class="table table-bordered align-middle cart-table">
           <thead class="table-light">
             <tr>
               <th class="table-header" scope="col">Hình ảnh</th>
@@ -180,112 +202,108 @@
               <th class="table-header" scope="col">Xóa</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>
-                <img
-                  class="table-img"
-                  src="./asset/img/sản phẩm/spx2-1.png"
-                  alt="spx2-1"
-                />
-              </td>
-              <td class="table-text--primary">Cây văn phòng</td>
-              <td>270.000 đ</td>
-              <td><span class="table-quality">1</span></td>
-              <td>270.000 đ</td>
-              <td><i class="fa-regular fa-trash-can"></i></td>
-            </tr>
-            <tr>
-              <td>
-                <img
-                  class="table-img"
-                  src="./asset/img/sản phẩm/spx2-1.png"
-                  alt="spx2-1"
-                />
-              </td>
-              <td class="table-text--primary">Cây văn phòng</td>
-              <td>270.000 đ</td>
-              <td><span class="table-quality">1</span></td>
-              <td>270.000 đ</td>
-              <td><i class="fa-regular fa-trash-can"></i></td>
-            </tr>
-            <tr>
-              <td>
-                <img
-                  class="table-img"
-                  src="./asset/img/sản phẩm/spx2-1.png"
-                  alt="spx2-1"
-                />
-              </td>
-              <td class="table-text--primary">Cây văn phòng</td>
-              <td>270.000 đ</td>
-              <td><span class="table-quality">1</span></td>
-              <td>270.000 đ</td>
-              <td><i class="fa-regular fa-trash-can"></i></td>
-            </tr>
-          </tbody>
+          <tbody></tbody>
         </table>
 
         <div class="table-btn-group d-grid d-md-flex justify-content-md-end">
           <button type="submit" class="form-btn btn btn-outline-success">
             Hủy đơn hàng
           </button>
-          <button type="submit" class="form-btn btn btn-success">
+          <button type="submit" class="form-btn btn btn-success next">
             Tiếp tục mua
           </button>
         </div>
 
-        <div class="row">
-          <div class="col-6 offset-md-6">
-            <table class="table table-bordered align-middle sum-table">
-              <thead>
-                <tr>
-                  <th class="sum-table-row table-text--primary" scope="col">
-                    Tổng tiền ( chưa thuế )
-                  </th>
-                  <th
-                    class="sum-table-row sum-table-price table-text--primary"
-                    scope="col"
-                  >
-                    270.000 đ
-                  </th>
-                </tr>
-              </thead>
-
-              <thead>
-                <tr>
-                  <th class="sum-table-row table-text--primary" scope="col">
-                    Thuế (vat 10%)
-                  </th>
-                  <th
-                    class="sum-table-row sum-table-price table-text--primary"
-                    scope="col"
-                  >
-                    27.000 đ
-                  </th>
-                </tr>
-              </thead>
-
-              <thead class="table-light">
-                <tr>
-                  <th class="sum-table-row" scope="col">
-                    Tổng phải thanh toán
-                  </th>
-                  <th class="sum-table-row sum-table-price" scope="col">
-                    297.000 đ
-                  </th>
-                </tr>
-              </thead>
-            </table>
+        <div class="price-info">
+          <section class="process-container">
+            <div class="process-titles">
+              <span class="process-title active"> Thông tin giỏ hàng </span>
+              <span class="process-title active">Thông tin thanh toán</span>
+              <span class="process-title">Xác nhận</span>
+            </div>
 
             <div
-              class="table-btn-group d-grid d-md-flex justify-content-md-end"
+              class="progress"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="55"
+              aria-valuemin="0"
+              aria-valuemax="100"
             >
-              <button type="submit" class="form-btn btn btn-success">
-                Thanh toán
-              </button>
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                style="width: 55%"
+              ></div>
+            </div>
+          </section>
+
+          <div class="row">
+            <div class="col-6 offset-md-6">
+              <table
+                class="table table-bordered align-middle sum-table price-table"
+              ></table>
+
+              <div
+                class="table-btn-group d-grid d-md-flex justify-content-md-end"
+              >
+                <button
+                  type="submit"
+                  class="form-btn btn btn-success confirm-btn"
+                >
+                  Thanh toán
+                </button>
+              </div>
             </div>
           </div>
+        </div>
+
+        <div class="confirm-form">
+          <section class="process-container">
+            <div class="process-titles">
+              <span class="process-title active"> Thông tin giỏ hàng </span>
+              <span class="process-title active">Thông tin thanh toán</span>
+              <span class="process-title active">Xác nhận</span>
+            </div>
+
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                style="width: 100%"
+              ></div>
+            </div>
+          </section>
+          <form class="form">
+            <h2 class="form-title">Thông tin cá nhân</h2>
+            <div class="row">
+              <div class="col-12">
+                <label for="email" class="form-label">Email của bạn </label>
+                <input
+                  type="email"
+                  class="form-control user-account"
+                  id="email"
+                />
+              </div>
+
+              <div class="col-12">
+                <label for="pass" class="form-label">Mật khẩu </label>
+                <input
+                  type="password"
+                  class="form-control user-password"
+                  id="pass"
+                />
+              </div>
+            </div>
+            <button type="submit" class="form-btn btn btn-success submit">
+              Xác nhận
+            </button>
+          </form>
         </div>
       </div>
     </main>
@@ -508,7 +526,8 @@
         </div>
       </section>
     </footer>
-    <script src="./json/main.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <script src="./asset/css/bootsrap/js/bootstrap.min.js"></script>
+    <script src="./asset/js/cart.js"></script>
   </body>
 </html>

@@ -20,7 +20,6 @@
       "id": 2,
       "type": "featured"
     },
-
     {
       "imgSrc": "../asset/img/sản phẩm/spx2-3.png",
       "title": "Cây dạ lam",
@@ -50,7 +49,8 @@
       "status": -50,
       "id": 5,
       "type": "featured"
-    }, {
+    },
+    {
       "imgSrc": "../asset/img/sản phẩm/spx2-6.png",
       "title": "Cây chân chim",
       "prevPrice": 250000,
@@ -59,6 +59,59 @@
       "status": -50,
       "id": 6,
       "type": "featured"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "account": "phamhieu15082002@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "orders": [
+    {
+      "cartId": 1,
+      "userId": 1,
+      "productId": 1,
+      "number": 1,
+      "price": 250000,
+      "id": 1
+    },
+    {
+      "cartId": 1,
+      "userId": 1,
+      "productId": 2,
+      "number": 1,
+      "price": 250000,
+      "id": 2
+    },
+    {
+      "cartId": 2,
+      "userId": 1,
+      "productId": 4,
+      "number": 2,
+      "price": 500000,
+      "id": 3
+    },
+    {
+      "cartId": 2,
+      "userId": 1,
+      "productId": 5,
+      "number": 1,
+      "price": 250000,
+      "id": 4
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "price": 500000,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "price": 750000,
+      "id": 2
     }
   ]
 }
