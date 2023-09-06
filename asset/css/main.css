@@ -776,6 +776,7 @@
 
 .grid-wrapper .col-4 {
   padding: 0 16px;
+  margin-bottom: 32px;
 }
 
 .grid-wrapper .row {
@@ -1403,13 +1404,13 @@
   color: #626262;
 }
 
-.popup__img{
+.popup__img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-.popup__content{
+.popup__content {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -1420,24 +1421,24 @@
   margin: 0;
 }
 
-.popup__title{
+.popup__title {
   font-weight: 400;
   font-size: 2.4rem;
 }
 
-.popup-label{
+.popup-label {
   font-weight: 700;
   font-size: 2.4rem;
   color: #36a66d;
   margin-bottom: 30px;
 }
 
-.popup__description{
+.popup__description {
   margin-top: 16px;
   margin-bottom: 30px;
 }
 
-.popup__icon{
+.popup__icon {
   position: absolute;
   top: 0;
   right: 0;
@@ -1446,7 +1447,6 @@
   font-size: 2rem;
 }
 
-
-.popup__icon:hover{
+.popup__icon:hover {
   cursor: pointer;
 }
