@@ -6,18 +6,14 @@
       "prevPrice": 250000,
       "curPrice": 250000,
       "desc": "Cây Ngọc Ngân là loại cây dành cho tình yêu! đây là món quà bất ngờ để bạn tặng 'người ấy'. Ngọc Ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng.",
-      "descDetail": "Cây dạ lam có nguồn gốc từ Brazil, được du nhập và phân bố rông khắp ở Việt Nam. Cây dạ lam chủ yếu trồng làm cảnh bằng lá. Có thể trồng thành bụi dày ở chậu hay trồng dọc theo lối đi, viền các bờ cỏ, nơi công viên, vườn hoa. Cây còn có thể chịu bóng một phần, nên làm cây trang trí trong văn phòng và nột thất trong nhà.Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Lá hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá nhạt màu hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
-      "regularName": "Dạ lam, Huỳnh tinh cảnh, Dong vằn.",
-      "academicName": "Calathea zebrina.",
-      "species": "Marantaceae (củ dong).",
-      "height": "0,8 - 1,2m",
       "status": -50,
       "id": 1,
       "type": "featured"
     },
     {
       "imgSrc": "../asset/img/sản phẩm/spx2-2.png",
-      "title": "Cây Danh Dự",
+      "title": "Cây dạ lam",
+      "desc": "Cây mọc thành bụi thưa, thân vươn thắng với chiều cao cây trung bình từ 0,8-1,2m. Lá hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa, mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
       "prevPrice": 250000,
       "curPrice": 250000,
       "status": -50,
@@ -27,7 +23,8 @@
 
     {
       "imgSrc": "../asset/img/sản phẩm/spx2-3.png",
-      "title": "Cây Danh Dự",
+      "title": "Cây dạ lam",
+      "desc": "Cây mọc thành bụi thưa, thân vươn thắng với chiều cao cây trung bình từ 0,8-1,2m. Lá hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa, mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
       "prevPrice": 250000,
       "curPrice": 250000,
       "status": -50,
@@ -36,121 +33,31 @@
     },
     {
       "imgSrc": "../asset/img/sản phẩm/spx2-4.png",
-      "title": "Cây Danh Dự",
+      "title": "Cây dạ lam",
+      "desc": "Cây mọc thành bụi thưa, thân vươn thắng với chiều cao cây trung bình từ 0,8-1,2m. Lá hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa, mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
       "prevPrice": 250000,
       "curPrice": 250000,
       "status": -50,
       "id": 4,
       "type": "featured"
     },
-
     {
       "imgSrc": "../asset/img/sản phẩm/spx2-5.png",
-      "title": "Cây Danh Dự",
+      "title": "Cây chân chim",
       "prevPrice": 250000,
       "curPrice": 250000,
+      "desc": "Cây Ngọc Ngân là loại cây dành cho tình yêu! đây là món quà bất ngờ để bạn tặng 'người ấy'. Ngọc Ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng.",
       "status": -50,
       "id": 5,
       "type": "featured"
-    },
-
-    {
+    }, {
       "imgSrc": "../asset/img/sản phẩm/spx2-6.png",
-      "title": "Cây Danh Dự",
+      "title": "Cây chân chim",
       "prevPrice": 250000,
       "curPrice": 250000,
+      "desc": "Cây Ngọc Ngân là loại cây dành cho tình yêu! đây là món quà bất ngờ để bạn tặng 'người ấy'. Ngọc Ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng.",
       "status": -50,
       "id": 6,
-      "type": "featured"
-    },
-
-    {
-      "imgSrc": "../asset/img/sản phẩm/spx2-7.png",
-      "title": "Cây Danh Dự",
-      "prevPrice": 250000,
-      "curPrice": 250000,
-      "status": -50,
-      "id": 7,
-      "type": "featured"
-    },
-
-    {
-      "imgSrc": "../asset/img/sản phẩm/spx2-8.png",
-      "title": "Cây Danh Dự",
-      "prevPrice": 250000,
-      "curPrice": 250000,
-      "status": -50,
-      "id": 8,
-      "type": "featured"
-    },
-
-    {
-      "imgSrc": "../asset/img/sản phẩm/spx2-9.png",
-      "title": "Cây Danh Dự",
-      "prevPrice": 250000,
-      "curPrice": 250000,
-      "status": -50,
-      "id": 9,
-      "type": "featured"
-    },
-
-    {
-      "imgSrc": "../asset/img/sản phẩm/spx2-10.png",
-      "title": "Cây Danh Dự",
-      "prevPrice": 250000,
-      "curPrice": 250000,
-      "status": -50,
-      "id": 10,
-      "type": "featured"
-    },
-
-    {
-      "imgSrc": "../asset/img/sản phẩm/spx2-11.png",
-      "title": "Cây Danh Dự",
-      "prevPrice": 250000,
-      "curPrice": 250000,
-      "status": -50,
-      "id": 11,
-      "type": "featured"
-    },
-
-    {
-      "imgSrc": "../asset/img/sản phẩm/spx2-12.png",
-      "title": "Cây Danh Dự",
-      "prevPrice": 250000,
-      "curPrice": 250000,
-      "status": -50,
-      "id": 12,
-      "type": "featured"
-    },
-
-    {
-      "imgSrc": "../asset/img/sản phẩm/spx2-13.png",
-      "title": "Cây Danh Dự",
-      "prevPrice": 250000,
-      "curPrice": 250000,
-      "status": -50,
-      "id": 13,
-      "type": "featured"
-    },
-
-    {
-      "imgSrc": "../asset/img/sản phẩm/spx2-14.png",
-      "title": "Cây Danh Dự",
-      "prevPrice": 250000,
-      "curPrice": 250000,
-      "status": -50,
-      "id": 14,
-      "type": "featured"
-    },
-
-    {
-      "imgSrc": "../asset/img/sản phẩm/spx2-15.png",
-      "title": "Cây Danh Dự",
-      "prevPrice": 250000,
-      "curPrice": 250000,
-      "status": -50,
-      "id": 15,
       "type": "featured"
     }
   ]
